@@ -140,7 +140,7 @@
         android:layout_toRightOf="@+id/textView5"
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp"
-        android:id="@+id/textView13"
+        android:id="@+id/txtsignindate"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
@@ -148,8 +148,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView7"
-        android:layout_alignLeft="@+id/textView13"
-        android:layout_alignStart="@+id/textView13"
+        android:layout_alignLeft="@+id/txtsignindate"
+        android:layout_alignStart="@+id/txtsignindate"
         android:id="@+id/textView14"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
