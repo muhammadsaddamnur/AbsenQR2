@@ -23,6 +23,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
     <TextView
         android:text="Tanggal"
         android:layout_width="wrap_content"
@@ -68,8 +76,7 @@
         android:layout_toEndOf="@+id/textView5"
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5"
-        android:layout_toRightOf="@+id/textView5" />
+        android:layout_alignStart="@+id/textView5" />
 
     <TextView
         android:text="Sign Out"
@@ -165,13 +172,5 @@
         android:layout_alignStart="@+id/textView15"
         android:id="@+id/textView16"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
-
-    <TextClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textClock2"
-        android:layout_marginTop="12dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
